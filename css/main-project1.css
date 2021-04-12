@@ -1,0 +1,130 @@
+*,
+*:before,
+*:after{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/*Design wrapper -- class type, can call anything*/
+.container{
+   width: 975px;
+   margin: 0 auto;
+}
+
+.centerme{
+   text-align: center;
+}
+
+body{
+   background: rgba(25,52,65,1);
+   font-family: Tahoma, Geneva, sans-serif;
+   font-size: 16px;
+   margin-top: 30px;
+}
+
+h1{
+   margin-bottom: 10px;
+   margin-top: 10px;
+   font-family: 'Fjalla One', sans-serif;
+   font-weight: normal;
+   font-size: 2em;
+   color: rgba(252,255,245,1);
+}
+
+h2{
+   text-align: left;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   font-family: 'Fjalla One', sans-serif;
+   font-weight: normal;
+   font-size: 1.7em;
+   color: rgba(209,219,189,.9);
+}
+
+p{
+   /*margin-bottom: 15px;
+   margin-top: 15px;*/
+   font-family: 'Arimo', sans-serif;
+   font-size: 18px;
+   text-align: justify;
+}
+
+footer{
+   margin-bottom: 15px;
+   color: rgba(209,219,189,.9);
+   text-align: right;
+   clear: both;
+}
+
+aside{
+   margin-left: 30px;
+}
+
+.box{
+   background: rgba(252,255,245,1);
+   border: solid 5px rgba(252,255,245,1);
+   /*padding is top, right, bottom, left*/
+   padding: 15px 30px 15px 30px;
+   margin-bottom: 15px;
+   margin-top: 15px;
+}
+
+.mainBox{
+   background: rgba(62,96,111,.85);
+   border: solid 5px rgba(62,96,111,1);
+   /*padding is top, right, bottom, left*/
+   padding: 15px 30px 15px 30px;
+   margin-bottom: 15px;
+   margin-top: 0px;
+}
+
+.mainImage{
+   float: left;
+   margin-right: 30px;
+}
+
+.mainContent{
+   float: left;
+   width: 695px;
+}
+
+nav a, a:link{
+   text-decoration: none;
+   font-family: 'Arimo', sans-serif;
+   font-size: 18px;
+}
+
+nav ol li{
+   display: inline-block;;
+   text-align: justify;
+   padding-right: 30px;
+   padding-left: 30px;
+   margin-top: 15px;
+}
+
+a:link, a:visited{
+   color: rgba(62,96,111,1);
+}
+
+a:hover, a:active{
+   background: rgba(0,0,0,1);
+   color: rgba(252,255,245,1);
+}
+
+a:active{
+   color: rgba(209,219,189,.9);
+}
+
+nav a:link, nav a:visited{
+   color: rgba(62,96,111,1);
+}
+
+nav a:hover, nav a:active{
+   background: rgba(0,0,0,1);
+   color: rgba(252,255,245,1);
+}
+
+nav a:active{
+   color: rgba(209,219,189,.9);
+}
