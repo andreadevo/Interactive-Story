@@ -16,6 +16,13 @@
    text-align: center;
 }
 
+#start {
+    display: block;
+    text-align:center;
+    margin-top: 5em;
+    font-size: 36px;
+}
+
 body{
    background: rgba(25,52,65,1);
    font-family: Tahoma, Geneva, sans-serif;
@@ -110,6 +117,10 @@ a:link, a:visited{
 a:hover, a:active{
    background: rgba(0,0,0,1);
    color: rgba(252,255,245,1);
+}
+
+#startSection a:hover{
+    background: transparent;
 }
 
 a:active{
